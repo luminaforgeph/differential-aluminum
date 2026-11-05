@@ -1,0 +1,1 @@
+export default function Loading() { return <main className="flex min-h-screen items-center justify-center bg-[#17191b] text-white"><div className="text-center"><div className="mx-auto h-8 w-8 animate-spin border-2 border-white/20 border-t-[#a98248]"/><p className="technical mt-5 text-[10px] text-white/60">Loading Differential</p></div></main>; }

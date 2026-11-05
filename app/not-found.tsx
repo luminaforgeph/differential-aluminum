@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <main className="flex min-h-screen flex-col items-center justify-center bg-[#17191b] px-6 text-center text-white"><span className="technical text-xs text-[#c4a36c]">404 · PAGE NOT FOUND</span><h1 className="display mt-5 text-5xl font-extrabold">This page is off the drawing board.</h1><p className="mt-5 text-sm text-white/60">The page may have moved or no longer exists.</p><Link href="/" className="button-primary mt-8">Return home</Link></main>; }
