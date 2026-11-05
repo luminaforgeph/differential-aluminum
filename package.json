@@ -2,7 +2,12 @@
   "name": "differential-aluminum",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "lint": "eslint ." },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
   "dependencies": {
     "framer-motion": "^12.23.24",
     "lucide-react": "^0.468.0",
@@ -20,5 +25,9 @@
     "eslint-config-next": "^15.5.6",
     "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "minimatch": "^11.1.0",
+    "postcss": "^8.5.23"
   }
 }
