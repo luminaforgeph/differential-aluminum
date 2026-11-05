@@ -18,8 +18,8 @@ jobs:
           node-version: 22
       - name: Install dependencies
         run: npm install
-      - name: Apply compatible dependency security fixes
-        run: npm audit fix
+      - name: Audit production dependencies
+        run: npm audit --omit=dev
       - name: Lint
         run: npm run lint
       - name: Build
